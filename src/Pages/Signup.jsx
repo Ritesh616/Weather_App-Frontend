@@ -8,7 +8,7 @@ const Signup = () => {
 
   const handleSignup = async () => {
     try {
-      await axios.post("http://localhost:5000/signup", data);
+      await axios.post("https://weather-app-backend-07pw.onrender.com/signup", data);
 
       alert("Signup Success ✅");
 
